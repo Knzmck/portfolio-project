@@ -18,3 +18,8 @@ li {
     text-align: center;
     padding: 5px;
 }
+
+.mb-4 {
+    padding-left: 50px;
+    padding-right: 50px;
+}
