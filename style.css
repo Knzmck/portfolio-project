@@ -1,14 +1,15 @@
 header {
     background-color: rgb(203, 231, 243);
-    font-family: Arial, Helvetica, sans-serif;
     font-size: xx-large;
     text-align: center;
     padding-top: 50px;
     padding-bottom: 25px;
+    font-family: 'Courgette', cursive;
     
 }
 nav {
     background-color:lightblue;
+    font-family: 'Courgette', cursive;
 }
 li {
     display: inline-block;
@@ -19,7 +20,26 @@ li {
     padding: 5px;
 }
 
+h1 {
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    padding: 50px;
+}
+.profilepic {
+
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 .mb-4 {
     padding-left: 50px;
     padding-right: 50px;
+}
+
+.description {
+    padding: 30px;
+    font-family: 'Courgette', cursive;
 }
