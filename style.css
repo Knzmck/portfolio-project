@@ -1,11 +1,15 @@
 header {
     background-color: rgb(203, 231, 243);
     font-size: xx-large;
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 25px;
+    text-align: left;
+    padding-top: 25px;
+    padding-bottom: 35px;
     font-family: 'Courgette', cursive;
     
+}
+
+.portfolioheader {
+    font-family: fantasy;
 }
 nav {
     background-color:lightblue;
@@ -42,6 +46,20 @@ h1 {
 .description {
     padding: 30px;
     font-family: 'Courgette', cursive;
+}
+
+.carouselslide {
+    padding: 30px;
+    margin-top: 30px;
+
+}
+
+.row {
+    padding-top: 5px;
+}
+
+.col-md-6 col-lg-4 col-xl-3 {
+   
 }
 
 
