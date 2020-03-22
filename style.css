@@ -17,6 +17,7 @@ h1 {
 
 .portfolioheader, .contact-header{
     font-family: 'Courgette', cursive;
+    padding-bottom: 20px;
 } 
     
 .contact-header {
@@ -73,6 +74,13 @@ li {
     height: 250px;
     width: 250px;
 
+}
+.btn {
+    padding: 15px 32px;
+    background-color: white;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 /*Extra small devices (smartphones, <600px)*/  
