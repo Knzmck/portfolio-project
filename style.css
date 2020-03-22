@@ -1,4 +1,3 @@
-
 h1 {
     text-align: center;
     font-family: 'Courgette', cursive;
@@ -20,13 +19,11 @@ h1 {
     font-family: 'Courgette', cursive;
 } 
     
-
 .contact-header {
     text-align: center;
     padding: 20px;
 
 }
-
 
 nav {
     background-color:lightblue;
@@ -42,7 +39,6 @@ li {
     padding: 5px;
 }
 
-
 .profilepic {
 
     height: 200px;
@@ -52,6 +48,7 @@ li {
     margin-left: auto;
     margin-right: auto;
 }
+
 .mb-4 {
     padding-left: 50px;
     padding-right: 50px;
@@ -77,9 +74,6 @@ li {
     width: 250px;
 
 }
-
-
-
 
 /*Extra small devices (smartphones, <600px)*/  
 
