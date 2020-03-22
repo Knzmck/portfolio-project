@@ -1,7 +1,7 @@
 h1 {
     text-align: center;
     font-family: 'Courgette', cursive;
-    padding: 50px;
+    padding: 30px;
 }
 
 .main-header, header {
@@ -55,11 +55,6 @@ li {
     padding-right: 50px;
 }
 
-.description {
-    padding: 30px;
-    font-family: 'Courgette', cursive;
-}
-
 .carouselslide {
     padding: 30px;
     margin-top: 30px;
@@ -83,9 +78,15 @@ li {
     margin-bottom: 10px;
 }
 
-.description {
+.description, {
     margin-left: 10%;
     margin-right: 10%;
+    padding: 30px;
+    font-family: 'Courgette', cursive;
+}
+
+p {
+    font-family: 'Courgette', cursive";
 }
 
 /*Extra small devices (smartphones, <600px)*/  
