@@ -83,6 +83,11 @@ li {
     margin-bottom: 10px;
 }
 
+.description {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 /*Extra small devices (smartphones, <600px)*/  
 
 @media only screen and (max-width: 600px) {…}  
