@@ -1,20 +1,38 @@
-header {
+
+h1 {
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    padding: 50px;
+}
+
+.main-header, header {
     background-color: rgb(203, 231, 243);
     font-size: xx-large;
     text-align: left;
-    padding-top: 25px;
-    padding-bottom: 35px;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 25px;
     font-family: 'Courgette', cursive;
     
 }
 
-.portfolioheader {
-    font-family: fantasy;
+.portfolioheader, .contact-header{
+    font-family: 'Courgette', cursive;
+} 
+    
+
+.contact-header {
+    text-align: center;
+    padding: 20px;
+
 }
+
+
 nav {
     background-color:lightblue;
     font-family: 'Courgette', cursive;
 }
+
 li {
     display: inline-block;
     margin-top: 25px;
@@ -24,11 +42,7 @@ li {
     padding: 5px;
 }
 
-h1 {
-    text-align: center;
-    font-family: 'Courgette', cursive;
-    padding: 50px;
-}
+
 .profilepic {
 
     height: 200px;
@@ -63,6 +77,8 @@ h1 {
     width: 250px;
 
 }
+
+
 
 
 /*Extra small devices (smartphones, <600px)*/  
