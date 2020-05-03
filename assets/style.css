@@ -4,8 +4,11 @@ h1 {
     padding: 30px;
 }
 
+#container0, #container1, #container2 {
+    background-color: lavender
+}
+
 .main-header, header {
-    background-color: rgb(203, 231, 243);
     font-size: xx-large;
     text-align: left;
     padding-left: 10px;
@@ -27,8 +30,11 @@ h1 {
 }
 
 nav {
-    background-color:lightblue;
     font-family: 'Noto Sans JP', sans-serif;
+}
+
+.navbar-brand {
+background-color: darkgrey;
 }
 
 li {
@@ -63,14 +69,6 @@ li {
 
 .row {
     padding-top: 5px;
-}
-
-.btn {
-    padding: 15px 32px;
-    background-color: white;
-    font-size: 15px;
-    margin-top: 10px;
-    margin-bottom: 10px;
 }
 
 .description {

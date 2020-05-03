@@ -12,32 +12,40 @@
 </head>
 
 <body>
-    <header>
+    <header class="bg-light">
         <h1 class="main-header">Mackenzie Schutz</h1>
+        <nav class="navbar navbar-light bg-light">
+            <form class="form-inline">
+                <button class="btn btn-outline-primary" id="about-btn" type="button">About</button>
+                <button class="btn btn-sm btn-outline-secondary" id="portfolio-btn" type="button">Portfolio</button>
+                <button class="btn btn-sm btn-outline-secondary" id="contact-btn" type="button">Contact</button>
+            </form>
+        </nav>
     </header>
-    <nav class="nav nav-pills flex-column flex-sm-row">
-        <button class="flex-sm-fill text-sm-center" id="about-btn">About</button>
-        <button class="flex-sm-fill text-sm-center" id="portfolio-btn">Portfolio</button>
-        <button class="flex-sm-fill text-sm-center" id="contact-btn">Contact</button>
-    </nav>
 
-<div id="container0"> 
-    <h1>about me</h1>
-    <img src="./assets/profilepic.jpg" alt="picture of Mackenzie." class="profilepic">
+    <div id="container0">
+        <h1>About Me</h1>
+        <img src="./assets/profilepic.jpg" alt="picture of Mackenzie." class="profilepic">
 
-    <p class="description">
-        My background and education are in Healthcare as a Registered Nurse.
-        I attended the University of Kansas from 2013-2016 and
-        Saint Luke's College of Health Sciences from 2016-2017 graduating with a
-        Bachelor's degree in Nursing Sciences. In college, I worked as a CNA in a
-        medical telemetry unit at the University of Kansas Hospital. After graduation,
-        I worked as a float nurse between 14 different units at Saint Luke's Hospital
-        in Kansas City. I am currently a marketing consultant and partial owner of a
-        nutraceutical company called HGSD. In my free time I volunteer for the League of
-        Women's Voters in Johnson County and assist with their social media marketing.
-        I am enrolled in a technical program at KU to learn website
-        development and coding.</p>
- </div>
+        <p class="description">
+            <h2>Current Experience in Marketing</h2>
+            I am currently a marketing consultant and partial owner of a
+            nutraceutical company called HGSD. In my free time I volunteer for the League of
+            Women's Voters in Johnson County and assist with their social media marketing.
+            <h2>Programming Experience</h2>
+            I am enrolled in a technical program at KU to learn website
+            development and coding.
+            <h2> Background in Healthcare</h2>
+            My background and education are in Healthcare as a Registered Nurse.
+            I attended the University of Kansas from 2013-2016 and
+            Saint Luke's College of Health Sciences from 2016-2017 graduating with a
+            Bachelor's degree in Nursing Sciences. In college, I worked as a CNA in a
+            medical telemetry unit at the University of Kansas Hospital. After graduation,
+            I worked as a float nurse between 14 different units at Saint Luke's Hospital
+            in Kansas City.
+
+        </p>
+    </div>
 
     <!-- Portfolio Page -->
 
@@ -87,7 +95,7 @@
     </main>
 
     <!--Section: Contact v.2-->
-    <section class="mb-4 d-none" id="container2">
+    <div class="mb-4 d-none" id="container2">
 
         <!--Section heading-->
         <h2 class="contact-header">Contact me</h2>
@@ -152,7 +160,8 @@
                 </form>
 
                 <div class="text-center text-md-left">
-                    <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+                    <button class="btn btn-primary"
+                        onclick="document.getElementById('contact-form').submit();">Send</button>
                 </div>
                 <div class="status"></div>
             </div>
@@ -177,22 +186,28 @@
             <!--Grid column-->
 
         </div>
+        <footer>
+            <nav class="footernav">
+                <button id="facebook" class="socialmedia"><a class="fa fa-facebook"></a></button>
+                <button id="linkedin" class="socialmedia"><a href="" class="fa fa-linkedin"></a></button>
+            </nav>
+        </footer>
+    </div>
 
-    </section>
 
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-    crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"></script>
-
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="./script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./script.js"></script>
 
 </body>
+
 </html>
