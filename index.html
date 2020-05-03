@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./assets/style.css">
 </head>
 
@@ -28,14 +29,14 @@
         <img src="./assets/profilepic.jpg" alt="picture of Mackenzie." class="profilepic">
 
         <p class="description">
-            <h2>Current Experience in Marketing</h2>
+            <h4>Current Experience in Marketing</h4>
             I am currently a marketing consultant and partial owner of a
-            nutraceutical company called HGSD. In my free time I volunteer for the League of
+            nutraceutical company called HGSD & Midwest Apothecary. In my free time I volunteer for the League of
             Women's Voters in Johnson County and assist with their social media marketing.
-            <h2>Programming Experience</h2>
+            <h4>Programming Experience</h4>
             I am enrolled in a technical program at KU to learn website
             development and coding.
-            <h2> Background in Healthcare</h2>
+            <h4> Background in Healthcare</h4>
             My background and education are in Healthcare as a Registered Nurse.
             I attended the University of Kansas from 2013-2016 and
             Saint Luke's College of Health Sciences from 2016-2017 graduating with a
@@ -97,102 +98,110 @@
     <!--Section: Contact v.2-->
     <div class="mb-4 d-none" id="container2">
 
-        <!--Section heading-->
-        <h2 class="contact-header">Contact me</h2>
 
-        <div class="row">
+        <!--Section: Contact v.2-->
+        <section class="mb-4">
 
-            <!--Grid column-->
-            <div class="col-md-9 mb-md-0 mb-5">
-                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+            <!--Section heading-->
+            <h2 class="contact-header">Contact me</h2>
 
-                    <!--Grid row-->
-                    <div class="row">
+            <div class="row">
 
-                        <!--Grid column-->
-                        <div class="col-md-6">
-                            <div class="md-form mb-0">
-                                <input type="text" id="name" name="name" class="form-control">
-                                <label for="name" style="font-family: 'Courgette', cursive">Your name</label>
+                <!--Grid column-->
+                <div class="col-md-9 mb-md-0 mb-5">
+                    <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                        <!--Grid row-->
+                        <div class="row">
+
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="name" name="name" class="form-control">
+                                    <label for="name" style="font-family: 'Courgette', cursive">Your name</label>
+                                </div>
+                            </div>
+                            <!--Grid column-->
+
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="email" name="email" class="form-control">
+                                    <label for="email" style="font-family: 'Courgette', cursive">Your email</label>
+                                </div>
+                            </div>
+                            <!--Grid column-->
+
+                        </div>
+                        <!--Grid row-->
+
+                        <!--Grid row-->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="subject" name="subject" class="form-control">
+                                    <label for="subject" style="font-family: 'Courgette', cursive">Subject</label>
+                                </div>
                             </div>
                         </div>
-                        <!--Grid column-->
+                        <!--Grid row-->
 
-                        <!--Grid column-->
-                        <div class="col-md-6">
-                            <div class="md-form mb-0">
-                                <input type="text" id="email" name="email" class="form-control">
-                                <label for="email" style="font-family: 'Courgette', cursive">Your email</label>
+                        <!--Grid row-->
+                        <div class="row">
+
+                            <!--Grid column-->
+                            <div class="col-md-12">
+
+                                <div class="md-form">
+                                    <textarea type="text" id="message" name="message" rows="2"
+                                        class="form-control md-textarea"></textarea>
+                                    <label for="message" style="font-family: 'Courgette', cursive">Your message</label>
+                                </div>
+
                             </div>
                         </div>
-                        <!--Grid column-->
+                        <!--Grid row-->
 
+                    </form>
+
+                    <div class="text-center text-md-left">
+                        <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
                     </div>
-                    <!--Grid row-->
-
-                    <!--Grid row-->
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="md-form mb-0">
-                                <input type="text" id="subject" name="subject" class="form-control">
-                                <label for="subject" style="font-family: 'Courgette', cursive">Subject</label>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Grid row-->
-
-                    <!--Grid row-->
-                    <div class="row">
-
-                        <!--Grid column-->
-                        <div class="col-md-12">
-
-                            <div class="md-form">
-                                <textarea type="text" id="message" name="message" rows="2"
-                                    class="form-control md-textarea"></textarea>
-                                <label for="message" style="font-family: 'Courgette', cursive">Your message</label>
-                            </div>
-
-                        </div>
-                    </div>
-                    <!--Grid row-->
-
-                </form>
-
-                <div class="text-center text-md-left">
-                    <button class="btn btn-primary"
-                        onclick="document.getElementById('contact-form').submit();">Send</button>
+                    <div class="status"></div>
                 </div>
-                <div class="status"></div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-md-3 text-center">
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <p style="font-family: 'Courgette', cursive">Lenexa, KS</p>
+                        </li>
+
+                        <li>
+                            <p style="font-family: 'Courgette', cursive">913.660.2003</p>
+                        </li>
+
+                        <li>
+                            <p style="font-family: 'Courgette', cursive">mshoots64@gmail.com</p>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+
             </div>
-            <!--Grid column-->
 
-            <!--Grid column-->
-            <div class="col-md-3 text-center">
-                <ul class="list-unstyled mb-0">
-                    <li>
-                        <p style="font-family: 'Courgette', cursive">Lenexa, KS</p>
-                    </li>
+        </section>
 
-                    <li>
-                        <p style="font-family: 'Courgette', cursive">913.660.2003</p>
-                    </li>
-
-                    <li>
-                        <p style="font-family: 'Courgette', cursive">mshoots64@gmail.com</p>
-                    </li>
-                </ul>
-            </div>
-            <!--Grid column-->
-
-        </div>
-        <footer>
-            <nav class="footernav">
-                <button id="facebook" class="socialmedia"><a class="fa fa-facebook"></a></button>
-                <button id="linkedin" class="socialmedia"><a href="" class="fa fa-linkedin"></a></button>
-            </nav>
-        </footer>
     </div>
+
+    <!--Section: Contact v.2-->
+    <footer>
+        <nav class="footernav">
+            <button id="facebook" type="button" class="btn btn-fb"><i class="fa fa-facebook-square"></i></button>
+            <button id="linkedin" type="button" class="btn btn-li"><i class="fa fa-linkedin-square"></i></button>
+        </nav>
+    </footer>
 
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"

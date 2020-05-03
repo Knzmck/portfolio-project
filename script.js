@@ -80,21 +80,21 @@ window.onload = function () {
     quizBtn.addEventListener('click', quizF);
 
     // Facebook and Linkedin Buttons
-    // var linkedinBtn = document.getElementById("linkedin");
-    // var fbBtn = document.getElementById("facebook");
+    var linkedinBtn = document.getElementById("linkedin");
+    var fbBtn = document.getElementById("facebook");
 
-    // function linkedinBtnF(e) {
-    //     e.preventDefault()
-    //     window.open("https:/www.linkedin.com/in/mackenzie-schutz-2560a6199")
-    // }
+    function linkedinBtnF(e) {
+        e.preventDefault()
+        window.open("https:/www.linkedin.com/in/mackenzie-schutz-2560a6199")
+    }
 
-    // function fbBtnF(e) {
-    //     e.preventDefault()
-    //     window.open("https://www.facebook.com/mackenzie.schutz")
-    // }
+    function fbBtnF(e) {
+        e.preventDefault()
+        window.open("https://www.facebook.com/mackenzie.schutz")
+    }
 
-    // linkedinBtn.addEventListener('click', linkedinBtnF);
-    // fbBtn.addEventListener('click', fbBtnF);
+    linkedinBtn.addEventListener('click', linkedinBtnF);
+    fbBtn.addEventListener('click', fbBtnF);
 
 
 }

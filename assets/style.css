@@ -48,8 +48,8 @@ li {
 
 .profilepic {
 
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     border-radius: 100%;
     display: block;
     margin-left: auto;
@@ -83,28 +83,24 @@ footer {
     justify-content: center;
 }
 
-.fa-facebook {
-    opacity: 7;
-    width: 40px;
-    height: 40px;
-    font-size: 40px;
-} 
-.fa-linkedin {
-    width: 40px;
-    height: 40px;
-    margin-bottom: 20px;
-    font-size: 40px;
-}
-
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
 .footernav {
     background-color: white;
 }
 
-.socialmedia {
-    height:50px;
-    border: none;
-    background-color: white;
-}
 
 /* css for button icons on project page */
 .container {
@@ -115,7 +111,6 @@ footer {
   /* Make the image responsive */
   .container img {
     width: 100%;
-    height: auto;
   }
   
   /* Style the button and place it in the middle of the container/image */
