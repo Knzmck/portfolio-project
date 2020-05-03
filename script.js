@@ -1,5 +1,4 @@
-window.onload = function () {
-
+$(document).ready(function() {
     // nav bar buttons 
 
     $("#about-btn").on("click", function () {
@@ -85,7 +84,7 @@ window.onload = function () {
 
     function linkedinBtnF(e) {
         e.preventDefault()
-        window.open("https:/www.linkedin.com/in/mackenzie-schutz-2560a6199")
+        window.open("https://www.linkedin.com/in/mackenzie-schutz-2560a6199")
     }
 
     function fbBtnF(e) {
