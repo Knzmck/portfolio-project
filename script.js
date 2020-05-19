@@ -51,6 +51,10 @@ $(document).ready(function() {
     const passBtn = document.getElementById("password-btn");
     const cocktailBtn = document.getElementById("cocktail-btn");
     const quizBtn = document.getElementById("quiz-btn");
+    const weatherRepoBtn = document.getElementById("weather-repo");
+    const PWRepoBtn = document.getElementById("pw-repo");
+    const cocktailRepoBtn = document.getElementById("cocktail-repo");
+    const quizRepoBtn = document.getElementById("quiz-repo");
 
     function weatherF(e) {
         e.preventDefault()
@@ -73,10 +77,34 @@ $(document).ready(function() {
         window.open("https://knzmck.github.io/code-quiz/")
     }
 
+    function weatherRepoOpen (e) {
+        e.preventDefault()
+        window.open("https://github.com/Knzmck/weather-dashboard.git")
+    }
+
+    function PWRepoOpen (e) {
+        e.preventDefault()
+        window.open("https://github.com/Knzmck/password-generator.git")
+    }
+
+    function cockTailRepoOpen (e) {
+        e.preventDefault()
+        window.open("https://github.com/Knzmck/Drinking-At-Home.git")
+    }
+
+    function QuizRepoOpen (e) {
+        e.preventDefault()
+        window.open("https://github.com/Knzmck/code-quiz.git")
+    }
+
     weatherBtn.addEventListener('click', weatherF);
     passBtn.addEventListener('click', passF);
     cocktailBtn.addEventListener('click', drinkingF);
     quizBtn.addEventListener('click', quizF);
+    weatherRepoBtn.addEventListener('click', weatherRepoOpen);
+    PWRepoBtn.addEventListener('click', PWRepoOpen);
+    cocktailRepoBtn.addEventListener('click', cockTailRepoOpen);
+    quizRepoBtn.addEventListener('click', QuizRepoOpen);
 
     // Facebook and Linkedin Buttons
     var linkedinBtn = document.getElementById("linkedin");
