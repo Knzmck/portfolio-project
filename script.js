@@ -96,4 +96,4 @@ $(document).ready(function() {
     fbBtn.addEventListener('click', fbBtnF);
 
 
-}
+})
