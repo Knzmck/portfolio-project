@@ -156,7 +156,5 @@ $(document).ready(function() {
 
     linkedinBtn.addEventListener('click', linkedinBtnF);
     fbBtn.addEventListener('click', fbBtnF);
-    githubBtn.addEventListener('click', githubBtnF)
-
-
+    githubBtn.addEventListener('click', githubBtnF);
 })

@@ -8,7 +8,7 @@ h1, h2, h4 {
 
 
 #container0, #container1, #container2 {
-    background-color: lavender
+    background-color: lavender;
 }
 
 .main-header, header {
@@ -18,7 +18,6 @@ h1, h2, h4 {
     padding-top: 10px;
     padding-bottom: 5px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
 }
 
 .portfolioheader, .contact-header{
@@ -29,7 +28,6 @@ h1, h2, h4 {
 .contact-header {
     text-align: center;
     padding: 20px;
-
 }
 
 nav {
@@ -50,7 +48,6 @@ li {
 }
 
 .profilepic {
-
     height: 150px;
     width: 150px;
     border-radius: 100%;
@@ -138,11 +135,12 @@ footer {
     border-radius: 5px;
     width: 150px;
   }
-
   .container .btn:hover {
     background-color: grey;
   }
-
+ .main-header {
+    color:#116c91;
+}
 /*Extra small devices (smartphones, <600px)*/  
 
 @media only screen and (max-width: 600px) {…}  

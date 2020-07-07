@@ -12,7 +12,6 @@ The goal of this project is to create an interactive portfolio to showcase my wo
  ## Features  
  
  * Optimized for mobile devices, as well as smaller and larger screens.   
- * Semantic tags and alt descriptions of photos throughout to optimize for E-readers.  
  * Bootstrap layouts were used for the contact page, nav bars and buttons.   
  * grid system utilized on multiple pages.  
  * working social media icons on contact me page.   
@@ -22,11 +21,20 @@ The goal of this project is to create an interactive portfolio to showcase my wo
 
  *Continue to improve design and layout.   
  *Add future projects.   
+ *Add PHP to contact page      
 
-## Link to Portfolio   
+## Deployed     
 
-https://knzmck.github.io/portfolio-project/  
+[VIEW MY PORTFOLIO HERE](https://knzmck.github.io/portfolio-project/)  
  
- ## Contributors    
+ ## Developer     
  
- Mackenzie Schutz  
+   <div class="CircleBadge CircleBadge--medium bg-gray-dark">
+   <img src="https://avatars.githubusercontent.com/Knzmck" height="90" width="90">   
+   </div>  
+   Mackenzie Schutz   
+
+
+[![ForTheBadge built-with-swag](http://ForTheBadge.com/images/badges/built-with-swag.svg)](https://GitHub.com/Naereen/)    
+
+
