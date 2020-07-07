@@ -52,10 +52,14 @@ $(document).ready(function() {
     const cocktailBtn = document.getElementById("cocktail-btn");
     // squidstack = quiz
     const quizBtn = document.getElementById("quiz-btn");
+    const noteAppBtn = document.getElementById("notetaker-btn");
+    const burgerAppBtn = document.getElementById("burgerapp-btn");
     const weatherRepoBtn = document.getElementById("weather-repo");
     const PWRepoBtn = document.getElementById("pw-repo");
     const cocktailRepoBtn = document.getElementById("cocktail-repo");
     const quizRepoBtn = document.getElementById("quiz-repo");
+    const noteRepoBtn = document.getElementById("notetaker-repo");
+    const burgerRepoBtn = document.getElementById("burger-repo");
 
     function weatherF(e) {
         e.preventDefault()
@@ -97,7 +101,22 @@ $(document).ready(function() {
         e.preventDefault()
         window.open("https://github.com/Knzmck/project2")
     }
-
+    function noteAppOpen (e) {
+        e.preventDefault()
+        window.open("https://radiant-dusk-28475.herokuapp.com/")
+    }
+    function noteRepoOpen (e) {
+        e.preventDefault()
+        window.open("https://github.com/Knzmck/note-taker.git")
+    }
+    function burgerAppOpen (e) {
+        e.preventDefault()
+        window.open("https://eat-da-burger-nomnom.herokuapp.com/")
+    }
+    function burgerRepoOpen (e) {
+        e.preventDefault()
+        window.open("https://github.com/Knzmck/burger.git")
+    }
     weatherBtn.addEventListener('click', weatherF);
     passBtn.addEventListener('click', passF);
     cocktailBtn.addEventListener('click', drinkingF);
@@ -106,6 +125,10 @@ $(document).ready(function() {
     PWRepoBtn.addEventListener('click', PWRepoOpen);
     cocktailRepoBtn.addEventListener('click', cockTailRepoOpen);
     quizRepoBtn.addEventListener('click', QuizRepoOpen);
+    noteAppBtn.addEventListener('click', noteAppOpen);
+    noteRepoBtn.addEventListener('click', noteRepoOpen);
+    burgerAppBtn.addEventListener('click', burgerAppOpen);
+    burgerRepoBtn.addEventListener('click', burgerRepoOpen);
 
     // Facebook and Linkedin Buttons
     var linkedinBtn = document.getElementById("linkedin");
