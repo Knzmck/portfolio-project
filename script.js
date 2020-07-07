@@ -50,6 +50,7 @@ $(document).ready(function() {
     const weatherBtn = document.getElementById("weather-btn");
     const passBtn = document.getElementById("password-btn");
     const cocktailBtn = document.getElementById("cocktail-btn");
+    // squidstack = quiz
     const quizBtn = document.getElementById("quiz-btn");
     const weatherRepoBtn = document.getElementById("weather-repo");
     const PWRepoBtn = document.getElementById("pw-repo");
@@ -74,7 +75,7 @@ $(document).ready(function() {
 
     function quizF(e) {
         e.preventDefault()
-        window.open("https://knzmck.github.io/code-quiz/")
+        window.open("https://squidstack.herokuapp.com/")
     }
 
     function weatherRepoOpen (e) {
@@ -94,7 +95,7 @@ $(document).ready(function() {
 
     function QuizRepoOpen (e) {
         e.preventDefault()
-        window.open("https://github.com/Knzmck/code-quiz.git")
+        window.open("https://github.com/Knzmck/project2")
     }
 
     weatherBtn.addEventListener('click', weatherF);
