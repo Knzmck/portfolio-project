@@ -19,6 +19,11 @@ $(document).ready(function() {
         $("#container1").addClass("d-none");
     })
 
+    $("#resume-btn").on('click', function (e) {
+        e.preventDefault()
+        window.open("./assets/updatedresume2020.pdf")
+    })
+
     const aboutBtn = document.getElementById("about-btn");
     const portfolioBtn = document.getElementById("portfolio-btn");
     const contactBtn = document.getElementById("contact-btn");
