@@ -3,7 +3,7 @@
 
 ## About  
 
-The goal of this project is to create an interactive portfolio to showcase my work (Mackenzie Schutz) in web development.  
+The goal of this project is to create an interactive portfolio to showcase my work in web development.  
 
  ## Assets
  
@@ -23,6 +23,9 @@ The goal of this project is to create an interactive portfolio to showcase my wo
  *Continue to improve design and layout.   
  *Add future projects.   
 
+## Link to Portfolio   
+
+https://knzmck.github.io/portfolio-project/  
  
  ## Contributors    
  
