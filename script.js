@@ -114,7 +114,7 @@ $(document).ready(function() {
 
     function linkedinBtnF(e) {
         e.preventDefault()
-        window.open("https://www.linkedin.com/in/mackenzie-schutz-2560a6199")
+        window.open("www.linkedin.com/in/mackenzie-schutz")
     }
 
     function fbBtnF(e) {
