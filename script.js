@@ -135,9 +135,8 @@ $(document).ready(function() {
     burgerAppBtn.addEventListener('click', burgerAppOpen);
     burgerRepoBtn.addEventListener('click', burgerRepoOpen);
 
-    // Facebook and Linkedin Buttons
+    // Github & Linkedin Buttons
     var linkedinBtn = document.getElementById("linkedin");
-    var fbBtn = document.getElementById("facebook");
     var githubBtn = document.getElementById("github");
 
     function linkedinBtnF(e) {
@@ -145,10 +144,6 @@ $(document).ready(function() {
         window.open("www.linkedin.com/in/mackenzie-schutz")
     }
 
-    function fbBtnF(e) {
-        e.preventDefault()
-        window.open("https://www.facebook.com/mackenzie.schutz")
-    }
     function githubBtnF(e) {
         e.preventDefault() 
         window.open("https://github.com/Knzmck")
